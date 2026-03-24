@@ -1,6 +1,9 @@
 ---
 name: fetch_and_extract_anthropic_labor_report
-description: Download the Anthropic report "Labor market impacts of AI: A new measure and early evidence", extract text from the PDF, and save normalized outputs for downstream analysis.
+description: >
+  Download the Anthropic report "Labor market impacts of AI: A new measure and
+  early evidence", extract text from the PDF, and save normalized outputs for
+  downstream analysis.
 ---
 
 # Fetch and extract Anthropic labor market report
@@ -59,3 +62,4 @@ Run:
 
 ```bash
 python scripts/fetch_and_extract_anthropic_labor_report.py
+```
